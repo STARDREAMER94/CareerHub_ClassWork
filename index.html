@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>TechSolutions Inc.</title>
+        <link rel="icon" type="image/x-icon" href="images/logo.png">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo" style="display:flex; justify-content: left;">
+                    <img id="logo-img" src="images/logo.png" height="40" width="70">
+                    <h2 style="color: #ffffff;">CareerHub</h2>
+                </div>
+                <div class="nav-items">
+                        <a href="index.html">Home</a>
+                        <a href="JobListings.html">Job Listings</a>
+                        <a href="ContactUs.html">Contact Us</a>
+
+                        <div class="nav-button" style="margin-left: 80px; margin-top: -5px; ">
+                            <button id="signin" style="margin-right: 10px; ">Sign Up</button>
+                            <button id="signup" style="margin-left: 10px; ">Sign In</button>
+                        </div>
+                </div>
+
+            </nav>
+        </header>
+        <br>
+
+        <div class="row-slides">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <form class="container" id="hero">
+                    <div class="hero-content">
+                        <h1>CareerHub Inc.</h1>
+                        <p>CareerHub Inc. is a cutting-edge software development company that specializes in IT consulting and custom software solutions.</p>
+                        <h3>Your gateway to future oppourtunities!</h3>
+                    </div>
+                </form>
+
+                <div class="slide-button">
+                    <button id="start">Get Started &rarr;</button>
+                    <button id="quote">Get a Free Quotation</button>
+                </div>
+            </div>
+
+            <div class="slide fade" id="column" style="padding-top: 90px;">
+                <section id="features">
+                    <div class="feature">
+                        <a href="aboutUs.html"><img src="images/timetable.jpg" alt="Timetable Icon"></a>
+                        <h2>About Us</h2>
+                        <p>Manage your busy schedule effectively with our interactive services.</p>
+                    </div>
+                    <div class="feature">
+                        <a href="blog.html"><img src="images/discussion.png" alt="Discussion Icon"></a>
+                        <h2>View Our Blog</h2>
+                        <p>Engage in meaningful discussions with other artists on our blog.</p>
+                    </div>
+                    <div class="feature">
+                        <a href="contactUs.html"><img src="images/resources.png" alt="Resources Icon"></a>
+                        <h2>Contact Us</h2>
+                        <p>Reach out to us for a consultation with ease.</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="slide fade">
+                <video src="HSM.mp4" type="video/mp4" controls autoplay style="width: 100%;
+                height: 77vh;"></video>
+                
+            </div>
+
+    
+            <!-- slide Navigation buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+            <!-- slide Dot indicators -->
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+
+        <div class="article">
+            <h2>Recent</h2>
+            <p>Reach out to us for a consultation with ease.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+    <!--form-->
+    <div class="article" style="height: 30vh; width: 100%;">
+        <h2>Unlock Your Potential with CareerHub Inc.</h2>
+        <p>Transform the way you software with our innovative, user-friendly solutions. Whether you're looking to boost productivity, enhance creativity, or achieve [specific goal], we’ve got you covered.<br><br>Our service is designed to help you overcome challenges, streamline your workflow, and accelerate your success.<br><br></p>
+        <h2>Why Choose Us?</h2>
+        <center>
+        <ul>
+            
+            <li>Aqua - Barbie Girl</li>
+            <li>Moose - Step Up 3</li>
+            <li>Simone Biles - Gymnastics</li>
+    
+        </ul>
+    </center>
+        <h3>Get started Today!</h3>
+    </div>
+
+    <section id="features">
+        <div class="feature">
+            <a href="aboutus.html"><img src="images/discussion.png" alt="Timetable Icon"></a>
+            <h2>About Us</h2>
+            <p>Manage your busy schedule effectively with our interactive services.</p>
+        </div>
+        <div class="feature">
+            <a href="#"><img src="images/blog.png" alt="Blog Icon"></a>
+            <h2>View Our Blog</h2>
+            <p>Engage in meaningful discussions with other artists on our blog.</p>
+        </div>
+        <div class="feature">
+            <a href="contactUs.html"><img src="images/resources.png" alt="Resources Icon"></a>
+            <h2>Contact Us</h2>
+            <p>Reach out to us for a consultation with ease.</p>
+        </div>
+    </section>
+
+        <br>
+        <br>
+        <footer>
+            <div class="footer-content">
+                
+                <p>Copyright &copy; 2024 <b>Website</b>. All rights reserved.</p>
+                <br>
+                
+            </div>
+        </footer>
+        <script src="home.js"></script>
+    </body>
+</html>

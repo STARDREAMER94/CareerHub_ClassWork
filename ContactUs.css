@@ -1,0 +1,221 @@
+body {
+    background-color: whitesmoke;
+    background-size: cover;
+    font-family: Century Gothic;
+    text-align: center;
+}
+/*Navigation Bar*/
+#logo{
+    border-radius: 200px;
+}
+.logo h2{
+    color: whitesmoke;
+}
+nav{
+    background-color:#a985e7 ;
+    margin-bottom: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    border-radius: 20px;
+    
+}
+nav.navbar {
+  display: flex;
+  justify-content: space-between; /* Distributes space between the logo and nav items */
+  align-items: center; /* Vertically centers items */
+  padding: 10px 20px; /* Adds padding around the nav bar */
+  margin-top: -10px;
+ }
+
+.navbar a:hover{
+    background-color: #b1bcc9;
+    padding: 10px;
+    border-radius: 6px;
+    
+   /* margin-bottom: -800px;*/
+
+}
+
+.navbar .logo {
+  flex: 1; /* Allows the logo to take up available space */
+  margin-left: 40px;
+}
+
+.navbar .nav-items {
+  display: flex;
+  flex: 2; /* Allows the nav items to take up available space */
+  justify-content: center; /* Centers the nav items horizontally */
+}
+
+.navbar .nav-items a {
+  margin: 0 20px; /* Space between each nav item */
+  text-decoration: none; /* Removes underline from links */
+  color: #ffffff; /* Text color for nav items */
+  font-size: 15px; /* Font size for nav items */
+  text-transform: uppercase; /* Makes nav item text uppercase */
+}
+.slide-button {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: -200px;
+}
+#signup {
+    background-color: #d77ad7;
+    margin-right: 50px;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+#signin {
+    background-color: #ffffff;
+    color: #d77ad7;
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color:transparent;
+}
+
+
+/* Form styling */
+.form-container {
+
+    margin: 20px;
+    background-color: #d77ad7;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8);
+    animation: fadeIn 0.5s ease-in;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+p {
+    text-align: center;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: transparent;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #0d611f;
+}
+
+textarea {
+    border: none;
+    border-bottom: 2px;
+}
+
+.submit-btn {
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #a985e7;
+    color: white;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.apply-btn {
+    background-color: #a985e7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.apply-btn:hover {
+    background-color: #a031a0;
+}
+
+/* Footer */
+.footer {
+    background: #a985e7;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #a985e7;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 20px;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-content a {
+    color: #ffffff;
+    text-decoration: none;
+}
